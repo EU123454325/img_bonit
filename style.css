@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 picture{
     background-image: url("background001.jpg");
 }
@@ -21,6 +24,7 @@ h1{
     color: white;
     text-align: center;
     margin: 10px;
+    font-size: 6vw;
 }
 header > p {
     text-align: center;
@@ -37,6 +41,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'sriracha';
+    font-size: 4.5vw;
 }
 section.img{
     background-image: url(background001.jpg);
@@ -44,3 +50,8 @@ section.img{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+.sriracha-regular {
+    font-family: "Sriracha", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
