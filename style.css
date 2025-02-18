@@ -1,0 +1,46 @@
+picture{
+    background-image: url("background001.jpg");
+}
+div.back_img{
+    max-width: 100%;
+    height: 990px;
+    background: blue url("background001.jpg" ) center center no-repeat ; 
+}
+body{
+    margin: 0px;
+    background-color: rgb(170, 169, 169);
+
+}
+header{
+    background-color: black;
+    margin: -10px -10px 0px -10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+header > p {
+    text-align: center;
+    color: white;
+    margin-top: -10px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.img{
+    background-image: url(background001.jpg);
+    background-size: 900px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
