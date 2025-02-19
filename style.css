@@ -11,8 +11,7 @@ div.back_img{
 }
 body{
     margin: 0px;
-    background-color: rgb(170, 169, 169);
-
+    background-image: linear-gradient(90deg, white, gray);
 }
 header{
     background-color: black;
@@ -37,18 +36,35 @@ header a {
     font-weight: bold;
 }
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: 'sriracha';
-    font-size: 4.5vw;
+    font-size: 3vw;
 }
 section.img{
-    background-image: url(background001.jpg);
-    background-size: 900px;
+    padding-right: 550px ;
+    box-shadow: inset 6px 6px 13px 0px black;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+}
+section.text{
+}
+section.img > p{
+    background-color: rgba(26, 25, 25, 0.527);
+    padding-left: 10px;
+    max-width: 700px;
+    min-width: 200px;
+    color: white;
+
+}
+section#img01{
+    background-image: url(background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(background002.jpg);
 }
 .sriracha-regular {
     font-family: "Sriracha", serif;
